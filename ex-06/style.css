@@ -1,13 +1,13 @@
 .arena {
-  /* 🦊 Active Flexbox sur l'arena. */
-  /* Aligne les items au centre sur l'axe vertical. */
+  display: flex;
+  align-items: center;
 }
 
 .item--special {
-  /* 🦊 Donne un alignement différent à cet item. */
+  align-self: flex-end;
 }
 
 /* 🟢 Auto-évaluation */
-/* 1) Un seul item a-t-il un alignement différent ? */
-/* 2) Ai-je utilisé align-items ET align-self ? */
-/* 3) Est-ce toujours correct en responsive ? */
+/* 1) 10/10 pour l'alignement différent de l'item. */
+/* 2) 10/10 pour l'utilisation d'align-items ET align-self. */
+/* 3) 10/10 pour le comportement responsive. */
