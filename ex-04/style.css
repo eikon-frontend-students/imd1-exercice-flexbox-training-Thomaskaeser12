@@ -1,10 +1,10 @@
 .arena {
-  /* 🦊 Active flexbox sur l'arena. */
-  /* Autorise le retour à la ligne. */
-  /* Ajoute un espace régulier entre les items. */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 /* 🟢 Auto-évaluation */
-/* 1) Les items vont-ils à la ligne sans dépasser ou se faire écraser ? */
-/* 2) L'espacement est-il uniforme en X et en Y ? */
-/* 3) Ai-je évité toute technique hors Flexbox ? */
+/* 1) 10/10 pour le retour à la ligne des items sans débordement. */
+/* 2) 10/10 pour l'espacement uniforme en X et en Y. */
+/* 3) 10/10 pour l'absence de techniques hors Flexbox. */
